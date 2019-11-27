@@ -34,7 +34,7 @@ $(function () {
     let json = JSON.stringify(person);
     document.write(json);
 
-    //Hämta info från json objekt till javascript objekt
+    //Hämta info från json objekt till javascript
     let javascriptObj = JSON.parse(json);
     document.write(javascriptObj.firstName);
 

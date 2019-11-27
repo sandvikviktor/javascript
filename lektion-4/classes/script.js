@@ -48,5 +48,6 @@ $(function(){
     let user1 = new Person('Viktor', 'Sandvik')
     // document.writeln(user1.fullName);
     document.write(user1.greetings());
+    
 
 });
